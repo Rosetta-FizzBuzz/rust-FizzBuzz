@@ -4,7 +4,7 @@ fn fizz_buzz(n: int) {
     let b = "Buzz";
     while i <= n {
         if i % 15 == 0 {
-            println!("{:s}", f + b);
+            println!("{:s}{:s}", f, b);
         } else if i % 5 == 0 {
             println!("{:s}", b);
         } else if i % 3 == 0 {
